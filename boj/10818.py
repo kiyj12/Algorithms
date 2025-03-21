@@ -11,3 +11,10 @@ for i in range(1,num_cnt):
         min_num = num_arr[i]
 
 print(min_num, max_num)
+
+
+
+## 다른 풀이
+num_cnt = int(input())
+num_arr = list(map(int, input().split()))
+print(min(num_arr), max(num_arr))
